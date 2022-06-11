@@ -2228,7 +2228,7 @@ var templateObject_1$P, templateObject_2$r, templateObject_3$a, templateObject_4
 var PriceLink = styled.a(templateObject_1$O || (templateObject_1$O = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
 var CakePrice = function (_a) {
     var cakePriceUsd = _a.cakePriceUsd, _b = _a.color, color = _b === void 0 ? "textSubtle" : _b;
-    return cakePriceUsd ? (React__default.createElement(PriceLink, { href: "https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82", target: "_blank" },
+    return cakePriceUsd ? (React__default.createElement(PriceLink, { href: "https://sisters.finance/swap?outputCurrency=0xFAb9b22CE76aFDD3F526AbF4CB035aE160Bdcdf1", target: "_blank" },
         React__default.createElement(Icon$_, { width: "24px", mr: "8px" }),
         React__default.createElement(Text, { color: color, bold: true }, "$" + cakePriceUsd.toFixed(3)))) : (React__default.createElement(Skeleton, { width: 80, height: 24 }));
 };
@@ -4718,15 +4718,15 @@ var links = [
         items: [
             {
                 label: "Exchange",
-                href: "https://exchange.pancakeswap.finance",
+                href: "https://exchange.sisters.finance",
             },
             {
                 label: "Liquidity",
-                href: "https://exchange.pancakeswap.finance/#/pool",
+                href: "https://exchange.sisters.finance/#/pool",
             },
             {
                 label: "Charts",
-                href: "https://exchange.pancakeswap.finance/#/charts",
+                href: "https://exchange.sisters.finance/#/charts",
                 iconName: "Chart",
                 isMobileOnly: true,
             },
@@ -4840,7 +4840,7 @@ var links = [
     },
     {
         type: DropdownMenuItemType.EXTERNAL_LINK,
-        href: "https://pancakeswap.finance",
+        href: "https://sisters.finance",
         label: "Link",
     },
     {
@@ -5197,7 +5197,7 @@ var ConnectModal = function (_a) {
                     !showMore && React__default.createElement(MoreWalletCard, { t: t, onClick: function () { return setShowMore(true); } }))),
             React__default.createElement(Box, { p: "24px" },
                 React__default.createElement(Text, { textAlign: "center", color: "textSubtle", as: "p", mb: "16px" }, t("Haven’t got a crypto wallet yet?")),
-                React__default.createElement(Button, __assign({ as: "a", href: "https://docs.pancakeswap.finance/get-started/connection-guide", variant: "subtle", width: "100%" }, getExternalLinkProps()), t("Learn How to Connect"))))));
+                React__default.createElement(Button, __assign({ as: "a", href: "https://docs.sisters.finance/get-started/connection-guide", variant: "subtle", width: "100%" }, getExternalLinkProps()), t("Learn How to Connect"))))));
 };
 var templateObject_1$1;
 
